@@ -52,7 +52,7 @@ public class PersonController {
     }
 
     @RequestMapping(value = "/{id}",
-            method = RequestMethod.DELETE  
+            method = RequestMethod.DELETE
     )
     public void delete(@PathVariable("id") String id) {
             service.delete(id);
